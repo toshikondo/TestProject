@@ -3,7 +3,7 @@
 - name: Network Getting Started First Playbook Extended with Cisco Device
   connection: network_cli
   gather_facts: false
-  hosts: DC_GROUP
+  hosts: all
   tasks:
 
     - name: Get config for IOS devices
